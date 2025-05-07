@@ -1,3 +1,35 @@
+# Timestamp Microservice
+
+This project is a simple **Timestamp Microservice** that provides an API to convert date input into a Unix timestamp and UTC string. The project is built using **Express.js** for the backend and **React.js** for the frontend.
+
+## 🚀 Features
+
+- **No Input (Empty Date)**: Returns the current date and time in Unix timestamp and UTC format.
+- **Numeric Input (Unix Timestamp)**: Converts a Unix timestamp into a human-readable date and returns both the Unix timestamp and UTC string.
+- **String Input (Date String)**: Converts a date string into its corresponding Unix timestamp and UTC string.
+- **Invalid Input**: Returns an error message if the input date is invalid.
+
+## 📦 Requirements
+
+### Backend (Node.js)
+
+- Express.js
+- Mongoose (for MongoDB interaction)
+
+### Frontend (React)
+
+- React.js
+- `.env` file for environment variables
+
+## 🧑‍💻 Backend Setup
+
+1. Clone this repository and navigate to the backend folder.
+2. Install the required dependencies:
+   ```bash
+   npm install
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
